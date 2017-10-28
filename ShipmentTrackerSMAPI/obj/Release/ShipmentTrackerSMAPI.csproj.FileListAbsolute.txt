@@ -1,0 +1,6 @@
+B:\Coding\C# Workspace\Stardew Valley\ShipmentTrackerSMAPI\ShipmentTrackerSMAPI\bin\Release\manifest.json
+B:\Coding\C# Workspace\Stardew Valley\ShipmentTrackerSMAPI\ShipmentTrackerSMAPI\bin\Release\ShipmentTrackerSMAPI.dll
+B:\Coding\C# Workspace\Stardew Valley\ShipmentTrackerSMAPI\ShipmentTrackerSMAPI\bin\Release\ShipmentTrackerSMAPI.pdb
+B:\Coding\C# Workspace\Stardew Valley\ShipmentTrackerSMAPI\ShipmentTrackerSMAPI\obj\Release\ShipmentTrackerSMAPI.csprojResolveAssemblyReference.cache
+B:\Coding\C# Workspace\Stardew Valley\ShipmentTrackerSMAPI\ShipmentTrackerSMAPI\obj\Release\ShipmentTrackerSMAPI.dll
+B:\Coding\C# Workspace\Stardew Valley\ShipmentTrackerSMAPI\ShipmentTrackerSMAPI\obj\Release\ShipmentTrackerSMAPI.pdb
