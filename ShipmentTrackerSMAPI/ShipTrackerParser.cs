@@ -20,7 +20,7 @@ namespace ShipmentTrackerSMAPI {
             }
             String statsFilePath = statsFolderPath + playerName + " Track Stats.csv";
 
-            Log.Verbose("Saving stats for " + trackedItems.Count + " items for day " + day + " of the " + month + " season of year " + year + " to the file " + statsFilePath);
+            MainModClass.Log("Saving stats for " + trackedItems.Count + " items for day " + day + " of the " + month + " season of year " + year + " to the file " + statsFilePath);
             StringBuilder csv = new StringBuilder();
 
             if (!File.Exists(statsFilePath)) {

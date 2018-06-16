@@ -17,12 +17,12 @@ namespace StardewValley.Menus {
             this.statsFolderPath = statsFilePath;
             this.playerName = playerName;
             this.farmName = farmName;
-            //Log.Verbose("Found " + items.Count + " items to track");
+            MainModClass.Log("Found " + items.Count + " items to track");
         }
 
         public void parseAndSaveItems() {
             List<ItemTrack> trackedItems = parseItemsForTracker(items);
-            //Log.Verbose("Collected " + trackedItems.Count + " shipped items to track");
+            MainModClass.Log("Collected " + trackedItems.Count + " shipped items to track");
             int season = getCurrentSeason();
             ShipTrackerParser.saveShippedItems(statsFolderPath, playerName, farmName, trackedItems, Game1.year, season, Game1.dayOfMonth-1);
         }
@@ -49,7 +49,7 @@ namespace StardewValley.Menus {
             string debugString = item.Name + ", " + item.getCategoryName();
 
             debugString += ", parentsheetindex: " + @object.parentSheetIndex+ ", category: " + @object.category + ", categoryName: " + @object.getCategoryName();
-            Log.Verbose(debugString);
+            MainModClass.Log(debugString);
         }
         
 

@@ -1,8 +1,8 @@
 ﻿{
-  "Name": "Ship Tracker",
+  "Name": "Shipment Tracker",
   "Authour": "Iceburg333",
   "Version": {
-    "MajorVersion": 1,
+    "MajorVersion": 2,
     "MinorVersion": 1,
     "PatchVersion": 0,
     "Build": ""
