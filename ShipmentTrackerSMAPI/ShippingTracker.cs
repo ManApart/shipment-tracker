@@ -1,11 +1,16 @@
-﻿using Microsoft.Xna.Framework;
+﻿
 using ShipmentTrackerSMAPI;
-using StardewModdingAPI;
-using StardewValley.BellsAndWhistles;
 using StardewValley.Objects;
-using System;
 using System.Collections.Generic;
-using System.Linq;
+using Microsoft.Xna.Framework;
+using Microsoft.Xna.Framework.Graphics;
+using StardewValley;
+using StardewValley.Locations;
+using StardewValley.TerrainFeatures;
+using System.IO;
+using System.Xml.Serialization;
+using xTile.Dimensions;
+
 
 namespace StardewValley.Menus {
     public class ShippingTracker {
@@ -33,9 +38,9 @@ namespace StardewValley.Menus {
 
             foreach (Item current in items) {
                 if (current is StardewValley.Object) {
-                    StardewValley.Object @object = current as StardewValley.Object;                   
+                    Object @object = current as Object;                   
 
-                    ItemTrack item = new ItemTrack(@object.name, @object.Stack, @object.sellToStorePrice(), getCategoryIndex(@object), @object.parentSheetIndex);
+                    ItemTrack item = new ItemTrack(@object.name, @object.Stack, @object.sellToStorePrice(), getCategoryIndex(@object), @object.ParentSheetIndex);
                     trackedItems.Add(item);
                     //testPrintItem(current);
                 }
@@ -45,10 +50,10 @@ namespace StardewValley.Menus {
         }
 
         private void testPrintItem(Item item) {
-            StardewValley.Object @object = item as StardewValley.Object;
+            Object @object = item as Object;
             string debugString = item.Name + ", " + item.getCategoryName();
 
-            debugString += ", parentsheetindex: " + @object.parentSheetIndex+ ", category: " + @object.category + ", categoryName: " + @object.getCategoryName();
+            debugString += ", parentsheetindex: " + @object.ParentSheetIndex + ", category: " + @object.Category + ", categoryName: " + @object.getCategoryName();
             MainModClass.Log(debugString);
         }
         
@@ -71,11 +76,11 @@ namespace StardewValley.Menus {
                 return 1;
                 //return "Furniture";
             }
-            if (@object.type != null && @object.type.Equals("Arch")) {
+            if (@object.Type != null && @object.Type.Equals("Arch")) {
                 return 2;
                 //return "Artifact";
             }
-            int category = @object.category;
+            int category = @object.Category;
             switch (category) {
                 case -81:
                     //return "Forage";

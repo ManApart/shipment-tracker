@@ -6,8 +6,6 @@ using System.Text;
 
 namespace ShipmentTrackerSMAPI {
     class ShipTrackerParser {
-        
-
         public static void saveShippedItems(string statsFolderPath, string playerName, string farmName, List<ItemTrack> trackedItems, int year, int month, int day) {
             //adjust for month transition
             if (day == 0) {
