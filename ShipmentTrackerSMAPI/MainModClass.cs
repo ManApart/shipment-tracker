@@ -2,8 +2,6 @@
 
 using StardewModdingAPI;
 using StardewValley;
-using StardewValley.Network;
-using Microsoft.Xna.Framework.Net;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -45,7 +43,7 @@ namespace ShipmentTrackerSMAPI {
             if (Game1.activeClickableMenu == null) {
                 int itemCount = (itemsToShip !=null ) ? itemsToShip.Count : 0;
 
-                itemsToShip = new List<Item>(Game1.getFarm().getShippingBin(Game1.player));
+                itemsToShip = new List<Item>(Game1.getFarm().shippingBin);
                 //itemsToShip = new List<Item>(Game1.getFarm().getShippingBin(Game1.player));
                 if (itemsToShip.Count > itemCount)
                 {
