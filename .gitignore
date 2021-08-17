@@ -1,5 +1,6 @@
 .vs
 bin
-obj
+**/obj/
 packages/
 bin/
+ShipmentTrackerSMAPI/obj/

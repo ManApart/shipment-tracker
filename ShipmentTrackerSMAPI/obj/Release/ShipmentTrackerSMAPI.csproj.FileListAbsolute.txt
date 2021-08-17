@@ -26,3 +26,10 @@ B:\Coding\C# Workspace\Stardew Valley\ShipmentTrackerSMAPI\ShipmentTrackerSMAPI\
 B:\Coding\C# Workspace\Stardew Valley\ShipmentTrackerSMAPI\ShipmentTrackerSMAPI\bin\Release\Microsoft.Xna.Framework.Xact.xml
 B:\Coding\C# Workspace\Stardew Valley\ShipmentTrackerSMAPI\ShipmentTrackerSMAPI\obj\Release\ShipmentTrackerSMAPI.dll
 B:\Coding\C# Workspace\Stardew Valley\ShipmentTrackerSMAPI\ShipmentTrackerSMAPI\obj\Release\ShipmentTrackerSMAPI.pdb
+N:\Coding\Workspace\mods\stardew-valley\shipment-tracker\ShipmentTrackerSMAPI\bin\Release\manifest.json
+N:\Coding\Workspace\mods\stardew-valley\shipment-tracker\ShipmentTrackerSMAPI\bin\Release\ShipmentTrackerSMAPI.dll
+N:\Coding\Workspace\mods\stardew-valley\shipment-tracker\ShipmentTrackerSMAPI\bin\Release\ShipmentTrackerSMAPI.pdb
+N:\Coding\Workspace\mods\stardew-valley\shipment-tracker\ShipmentTrackerSMAPI\obj\Release\ShipmentTrackerSMAPI.csproj.AssemblyReference.cache
+N:\Coding\Workspace\mods\stardew-valley\shipment-tracker\ShipmentTrackerSMAPI\obj\Release\ShipmentTrackerSMAPI.csproj.CoreCompileInputs.cache
+N:\Coding\Workspace\mods\stardew-valley\shipment-tracker\ShipmentTrackerSMAPI\obj\Release\ShipmentTrackerSMAPI.dll
+N:\Coding\Workspace\mods\stardew-valley\shipment-tracker\ShipmentTrackerSMAPI\obj\Release\ShipmentTrackerSMAPI.pdb
